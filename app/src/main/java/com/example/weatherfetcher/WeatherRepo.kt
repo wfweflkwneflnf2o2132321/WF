@@ -1,5 +1,5 @@
 package com.example.weatherfetcher
 
 interface WeatherRepo {
-    fun getTemperature():String
+   suspend fun getTemperature():String
 }

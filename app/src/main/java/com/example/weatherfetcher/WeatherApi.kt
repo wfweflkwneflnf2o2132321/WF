@@ -7,8 +7,8 @@ import retrofit2.http.Query
 interface WeatherApi {
 
     @GET("weather")
-    fun getWeather(
+   suspend fun getWeather(
         @Query("q") query: String,
         @Query("appid") apiKey: String = API_KEY
-    ):Response<String>
+    ):WeatherRemoteModel
 }
