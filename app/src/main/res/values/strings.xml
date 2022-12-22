@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">WeatherFetcher</string>
+    <string name="openWeather">OpenWeather</string>
+    <string name="editCity">Введите город:</string>
+    <string name="wind">Ветер</string>
+    <string name="temp">Температура</string>
 </resources>
